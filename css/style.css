@@ -1,0 +1,72 @@
+body {
+    background:darkgray;
+}
+.box01 {
+    background:white;
+    font-size: 16px;
+    border-radius:10px;
+    width:100%;
+}
+.box02 {
+    background:white;
+    font-size: 16px;
+    border-radius:10px;
+    width:30%;
+    clear:right;
+    /*这是旁边飘的盒子，但没用，上面也是句废话*/
+}
+.interview {
+    font-size: 28px;
+
+
+}
+div.top-nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: #333;
+
+}
+div.top-nav li {
+    list-style-type:none;
+    float: left;
+}
+
+
+div.top-nav a {
+    display: block;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 13px 40px;
+    text-decoration: none;
+}
+
+div.top-nav a:hover {
+    background-color: #111;
+}
+}
+h2 {
+    font-size:50px;
+}
+.mw01 {
+    font-size:20px;
+
+}
+/*main world*/
+.side-manu {
+
+}
+.img01 {
+    border-top-left-radius:10px;
+    height: 400px;
+    width: 400px;
+}
+.st01{
+    color:blue; font-size:400%}
+/*文字规格01号*/
+.delay200 {
+    animation-delay: 200ms;
+}
+
