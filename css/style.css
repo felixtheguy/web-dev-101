@@ -55,17 +55,15 @@ h2 {
 
 }
 /*main world*/
-.side-manu {
+.side-nav {
 
 }
 .img01 {
     border-top-left-radius:10px;
-    height: 400px;
-    width: 400px;
+    height:400px;
+    width:400px;
 }
-.st01{
-    color:blue; font-size:400%}
-/*文字规格01号*/
+
 .delay200 {
     animation-delay: 200ms;
 }
