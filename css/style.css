@@ -46,9 +46,28 @@ div.top-nav a {
 div.top-nav a:hover {
     background-color: #111;
 }
+nav.side-nav{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    width:20%;
+    background-color:#333;
+    position:fixed;
+    overflow:auto;
 }
-h2 {
-    font-size:50px;
+nav.side-nav a{
+    display:block;
+    color:#111;
+    padding:8px 0 8px 16px;
+    text-decoration:none;
+}
+nav.side-nav a.active{
+    background-color:#333;
+    color:white;
+}
+nav.side-nav a:hover:not(.active) {
+    background-color:#111;
+    color:white;
 }
 .mw01 {
     font-size:20px;
