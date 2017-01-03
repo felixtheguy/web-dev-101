@@ -1,40 +1,36 @@
 body {
+    margin:0;
     background:darkgray;
 }
 .box01 {
     background:white;
     font-size: 16px;
     border-radius:10px;
-    width:100%;
+    margin:20px;
+    width:95%;
+    padding:10px;
 }
-.box02 {
-    background:white;
-    font-size: 16px;
-    border-radius:10px;
-    width:30%;
-    clear:right;
-    /*这是旁边飘的盒子，但没用，上面也是句废话*/
-}
+
 .interview {
     font-size: 28px;
-
-
 }
-div.top-nav{
+header.top-nav{
     list-style-type: none;
-    margin: 0;
+    margin: -10px;
     padding: 0;
+    border:0;
     overflow: hidden;
     background: #333;
 
+
 }
-div.top-nav li {
+header.top-nav li {
     list-style-type:none;
     float: left;
 }
 
 
-div.top-nav a {
+header.top-nav a {
     display: block;
     border-radius: 10px;
     color: white;
@@ -43,47 +39,20 @@ div.top-nav a {
     text-decoration: none;
 }
 
-div.top-nav a:hover {
+header.top-nav a:hover {
     background-color: #111;
 }
-nav.side-nav{
-    list-style-type:none;
-    margin:0;
-    padding:0;
-    width:20%;
-    background-color:#333;
-    position:fixed;
-    overflow:auto;
-}
-nav.side-nav a{
-    display:block;
-    color:#111;
-    padding:8px 0 8px 16px;
-    text-decoration:none;
-}
-nav.side-nav a.active{
-    background-color:#333;
-    color:white;
-}
-nav.side-nav a:hover:not(.active) {
-    background-color:#111;
-    color:white;
-}
+
 .mw01 {
     font-size:20px;
 
 }
-/*main world*/
-.side-nav {
 
-}
+
 .img01 {
     border-top-left-radius:10px;
     height:400px;
     width:400px;
 }
 
-.delay200 {
-    animation-delay: 200ms;
-}
 
