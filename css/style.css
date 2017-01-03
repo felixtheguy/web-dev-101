@@ -6,17 +6,27 @@ body {
     background:white;
     font-size: 16px;
     border-radius:10px;
-    margin:20px;
-    width:95%;
+    margin:15px;
+    width:70%;
     padding:10px;
+    float: left;
 }
+.box02{
+    background:white;
+    font-size: 16px;
+    border-radius:10px;
+    margin-top:15px;
+    width:25%;
 
+    position:center;
+    float:left;
+}
 .interview {
     font-size: 28px;
 }
 header.top-nav{
     list-style-type: none;
-    margin: -10px;
+    margin: 0px;
     padding: 0;
     border:0;
     overflow: hidden;
