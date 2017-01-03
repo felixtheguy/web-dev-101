@@ -17,9 +17,11 @@ body {
     border-radius:10px;
     margin-top:15px;
     width:25%;
+    float:right;
+    position: fixed;
+    top: 70px;
+    right: 10px;
 
-    position:center;
-    float:left;
 }
 .interview {
     font-size: 28px;
