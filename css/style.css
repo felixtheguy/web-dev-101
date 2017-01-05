@@ -2,6 +2,10 @@ body {
     margin:0;
     background:darkgray;
 }
+.title {
+    font-size:20px;
+
+}
 .box01 {
     background:white;
     font-size: 16px;
@@ -62,6 +66,9 @@ header.top-nav a:hover {
 .li01{
     font-size:20px;
 }
+.li02{
+    list-style-type: none;
+}
 .mw01 {
     font-size:20px;
 
@@ -74,5 +81,12 @@ header.top-nav a:hover {
     width:400px;
     overflow:hidden;
 }
+footer {
+    background-color: black;
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 5px;
 
+}
 
