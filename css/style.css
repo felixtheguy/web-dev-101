@@ -1,5 +1,10 @@
-body {
+/*main stylesheet*/
+
+*{
     margin:0;
+    padding:0;
+}
+body {
     background:darkgray;
 }
 .title {
@@ -11,8 +16,8 @@ body {
     font-size: 16px;
     border-radius:10px;
     margin:15px;
-    width:70%;
     padding:10px;
+    width:70%;
     float: left;
 }
 .box02{
@@ -41,10 +46,10 @@ header.top-nav{
     position:fixed;
     top:0;
     width:100%;
-
+    z-index:999;
 
 }
-header.top-nav li {
+header.top-nav li{
     list-style-type:none;
     float: left;
 }
@@ -58,9 +63,32 @@ header.top-nav a {
     padding: 13px 40px;
     text-decoration: none;
 }
+header.top-nav a.active{
+    background-color:#111;
+    color:white;
+}
 
 header.top-nav a:hover {
     background-color: #111;
+}
+.side-bar li{
+    list-style-type:none;
+    margin:0;
+    padding:10px 10px 10px 10px;
+    width:25%;
+    height:100%
+    background-color:#333;
+    position:fixed;
+    overflow:auto;
+}
+.side-bar a{
+    display:block;
+    color:darkblue;
+    text-decoration:none;
+}
+.side-bar a.active{
+    background-color:#111;
+    color:white;
 }
 
 .li01{
@@ -77,9 +105,7 @@ header.top-nav a:hover {
 
 .img01 {
     border-top-left-radius:10px;
-    height:400px;
-    width:400px;
-    overflow:hidden;
+    width:50%
 }
 footer {
     background-color: black;
@@ -90,4 +116,6 @@ footer {
     bottom:0;
 
 }
-
+.icon-bar{
+    background-color:#563d7c
+}

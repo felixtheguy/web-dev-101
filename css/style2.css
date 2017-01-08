@@ -1,0 +1,123 @@
+/*stylesheet for text only*/
+article, aside, figure, figcaption, footer, header, hgroup, nav, section, summary {
+    display: block;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: medium;
+    font-family: "Helvetica","Hiragino Sans GB","Microsoft Yahei", sans-serif;
+}
+
+a {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer
+}
+
+a:hover {
+    color: #5188a6;
+    text-decoration: none
+}
+
+#wrapper {
+    max-width: 853px;
+    min-width: 400px;
+}
+
+header.SiteHeader {
+    padding: 10px;
+    background: #000000;
+}
+
+aside.NavSidebar
+{
+    padding: 5px 15px 5px 15px;
+    width: 203px;
+    background-color:#f9f9f9;
+    font-size: small;
+    float:left;
+}
+
+aside.NavSidebar h2 {
+    color: #6B6E3F;
+    border-bottom: thin #6B6E3F solid;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+aside.NavSidebar ul {
+    padding-left: 15px;
+}
+
+aside.NavSidebar li {
+    padding-bottom: 8px;
+}
+
+aside.NavSidebar img {
+    margin-top: 20px;
+    border: white solid 4px;
+}
+
+.Content {
+    padding: 20px;
+    margin-left:233px;
+}
+
+.Content .LeadIn {
+    font-weight: bold;
+    font-size: large;
+    font-variant: small-caps;
+}
+
+.Content h3 {
+    color: #24486C;
+    margin-bottom: 2px;
+    font-size: medium;
+}
+
+.Content p {
+    margin-top: 0px;
+}
+
+header.ArticleHeader {
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+header.ArticleHeader h2 {
+    font-size: xx-large;
+}
+
+header.ArticleHeader h3 {
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+header.ArticleHeader .Byline {
+    margin-top: 8px;
+    font-style: italic;
+    font-size: small;
+}
+
+footer {
+    background: #333333;
+    color:#c0c0c0;
+    padding: 10px;
+    text-align: center;
+    font-size: x-small;
+    clear:both;
+}
+
+footer .Disclaimer {
+    font-style: italic;
+}
+
+footer p {
+    margin: 3px;
+}
