@@ -1,121 +1,74 @@
-/*main stylesheet*/
+/*main stylesheet for FTG study blog*/
 
 *{
     margin:0;
     padding:0;
-}
-body {
-    background:darkgray;
-}
-.title {
-    font-size:20px;
 
 }
-.box01 {
-    background:white;
-    font-size: 16px;
-    border-radius:10px;
-    margin:15px;
-    padding:10px;
-    width:70%;
-    float: left;
-}
-.box02{
-    background:white;
-    font-size: 16px;
-    border-radius:10px;
-    margin-top:15px;
-    width:25%;
-    float:right;
-    position: fixed;
-    top: 70px;
-    right: 10px;
-
-
-}
-.interview {
-    font-size: 28px;
-}
-header.top-nav{
-    list-style-type: none;
-    margin:0;
-    padding: 0;
-    border-bottom:0;
-    overflow: hidden;
-    background: #333;
-    position:fixed;
-    top:0;
-    width:100%;
-    z-index:999;
-
-}
-header.top-nav li{
-    list-style-type:none;
-    float: left;
-}
-
-
-header.top-nav a {
-    display: block;
-    border-radius: 10px;
-    color: white;
-    text-align: center;
-    padding: 13px 40px;
-    text-decoration: none;
-}
-header.top-nav a.active{
-    background-color:#111;
+header{
+    font-size:40px;
+    text-align:center;
+    background:black;
     color:white;
-}
-
-header.top-nav a:hover {
-    background-color: #111;
-}
-.side-bar li{
-    list-style-type:none;
-    margin:0;
-    padding:10px 10px 10px 10px;
-    width:25%;
-    height:100%
-    background-color:#333;
-    position:fixed;
-    overflow:auto;
-}
-.side-bar a{
     display:block;
-    color:darkblue;
-    text-decoration:none;
+
+
 }
-.side-bar a.active{
-    background-color:#111;
+nav{
+    background:#484848;
+
+}
+body{
+    background:gray;
+}
+footer{
+    background:black;
     color:white;
+    width:100%;
+    overflow:hidden;
+    text-align:center;
 }
+.main-frame {
+    margin:0 auto;
+    width:80%;
+    min-width:800px;
+    max-width:1960px;
+    /*position:absolute;*/
+}
+.declare{
+    width:26%;
+    margin-top:10px;
+    float:right;
+    overflow:hidden;
+    background:white;
+    border-radius:10px;
+    /*position:fixed;*/
+    /*right:10px;*/
+    /*top:56px;*/
+    padding:5px;
+    font-size:30px;
+    /*position:relative;*/
 
-.li01{
-    font-size:20px;
 }
-.li02{
-    list-style-type: none;
+.declare img{
+    width:100%;
+    border-radius:200px;
 }
-.mw01 {
-    font-size:20px;
+.article {
+    width:70%;
+    float:left;
+    /*overflow:hidden;*/
+}
+.box01{
+    background:white;
+    border-radius:10px;
+    width:100%;
+    padding:10px;
+    overflow:hidden;
+    margin:10px 0 ;
+    font-size:30px;
+}
+.box01 img{
+    width:80%;
 
-}
-
-
-.img01 {
-    border-top-left-radius:10px;
-    width:50%
-}
-footer {
-    background-color: black;
-    color: white;
-    clear: both;
-    text-align: center;
-    padding: 5px;
-    bottom:0;
-
-}
-.icon-bar{
-    background-color:#563d7c
 }
