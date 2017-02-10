@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Chapter 1 practice</title>
+    <meta name="keyword" content="keywords">
+    <meta name="description" content="descriptions">
+    <link rel="stylesheet" href="../css/js001.css">
+    <script src="../js/j001.js"></script>
+    <link rel="shortcut icon" href=""/>
+
+    <style>
+        /*too many style, just put it here for study use*/
+        section {
+            margin-top: 20px;
+        }
+        #btn02 {
+            background:#f00;
+        }
+        #btn03 {
+            background: #f00;
+        }
+
+       #img01 {
+           width: 600px;
+       }
+
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>       <!--button alert-->
+            <input type="button" id="btn01" value="button" style="background: #ff0000;" onclick="alert(1)"/>
+            <input type="button" id="btn02" value="button 02" />
+            <script>
+                document.getElementById('btn02').onclick=function(){alert(1)}
+             </script>
+            <input type="button" id="btn03" value="button 03"/>
+             <script src="../js/j001.js"></script>
+        </div>
+
+        <div>       <!--change img size-->
+            <img id="img01" src="../img/img017.jpeg"/>
+            <br>
+            <input type="button" id="btn04" value="button 04">
+            <input type="button" id="btn05" value="button 05">
+            <br>
+            <input type="text" id="text01" value="" placeholder="type in your width"/>
+            <input type="button" id="btn06" value="button 06">
+        </div>
+    </section>
+
+    <section>
+        <div>
+            <script>
+//                var n = 6;
+//                if(n <=4 ) {
+//                    alert('less than 5')
+//                }else if(n == 5){
+//                    alert('equal to 5 ')
+//                }else if(n ==6){
+//                    alert('equal to 6')
+//                }else{
+//                    alert('greater than 6')
+//                }
+            </script>
+            <input type="text" id="text02" placeholder="type a number from 1-10">
+            <input type="button" id="btn07" value="try your luck">
+        </div>
+    </section>
+
+    <section>
+        <input type="button" id="btn08" value="button08">
+        <div id="box01"></div>
+    </section>
+
+    <section>
+        <input type="text" id="text03" placeholder="try to type here">
+        <input type="button" id="btn09" value="button 09">
+        <div id="box02"></div>
+    </section>
+
+</body>
+</html>

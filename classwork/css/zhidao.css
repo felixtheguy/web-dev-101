@@ -1,0 +1,322 @@
+/*百度知道静态stylesheet*/
+
+/*formatting*/
+body, p, section, nav, header, h2, h3, h4, h5{
+    margin:0;
+}
+ul,li{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+input{
+    margin:0;
+    padding:0;
+
+}
+img{
+    border:0;
+    vertical-align:middle;
+
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+
+}
+body{
+    font-size:14px;
+    /*font-family: "Microsoft YaHei";*/
+    /*unknown reason for error*/
+}
+.center {
+    width:1180px;
+    margin:0 auto;
+    /*min-width:1183px;*/
+
+}
+a {
+    text-decoration:none;
+}
+
+/*header part1*/
+header {
+    margin-bottom: 32px;
+}
+.nav01 {
+    border-bottom: 1px solid #ebebeb;
+    height: 32px;
+    min-width: 1183px;
+}
+header p{
+    font-size: 12px;
+    padding-top: 10px;
+    float: right;
+    display:block;
+
+}
+header a {
+    color: #000000;
+    text-decoration: none;
+    margin-right:23px;
+    font-weight: bold;
+
+
+
+}
+header a .active {
+    color: #666666;
+    font-weight: normal;
+
+
+}
+header .left-border {
+    padding-left:23px;
+    border-left: 1px solid #ebebeb;
+}
+
+
+
+/*header part2*/
+.searchbox {
+    height:50px;
+    margin-top: 22px;
+    font-size:0;
+}
+.logo {
+    height: 46px;
+    width: 137px;
+    vertical-align: top;
+    margin: 0 20px 0 135px;
+
+}
+.searchtext {
+    height: 38px;
+    width: 534px;
+    border:1px solid #ebebeb;
+    vertical-align: bottom;
+    border-right: none;
+}
+.searchbtn {
+    width: 104px;
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    background: #2e82ff;
+    border: 1px solid #2e82ff;
+    margin-right: 4px;
+    vertical-align: bottom;
+}
+.ask {
+    height: 40px;
+    width: 104px;
+    color: #3388ff;
+    font-size: 16px;
+    background: #ffffff;
+    border:1px solid #2e82ff;
+    vertical-align: bottom;
+}
+
+/*navigation & banner*/
+/*part1 navigation*/
+nav {
+    background-color: #fbfaf8;
+}
+
+
+.navbar{
+    background: #27b551;
+    height: 40px;
+    box-shadow: 0 2px #d7d6d4;
+}
+nav .list01 {
+    color: #ffffff;
+    display:inline;
+}
+nav .list01 ul {
+    display:inline;
+}
+nav .list01 li {
+    display: inline;
+}
+nav .list02 {
+    display: inline;
+}
+.list02 p {
+
+    display: inline;
+}
+.navbar a{
+    padding:0 58px 0 58px;
+    border-right:1px solid #09a800;
+    font: 16px/40px "Microsoft YaHei UI";
+    color: #ffffff;
+
+
+}
+.navbar img {
+    width: 16px;
+    height: 17px;
+}
+nav li a .active,nav li a:hover {
+    color: #faff64;
+}
+
+
+
+
+/*part2 banner left*/
+
+
+#banner {
+    background: url('../img/banner001.jpg') center no-repeat;
+    height: 400px;
+}
+nav .ban-left {
+    display: inline;
+    /*width:774px;*/
+}
+.date {
+    font-size: 17px;
+    color: #fff;
+    text-shadow: 1px 1px #8f8a8b;
+    margin: 20px 0 0 3px;
+
+
+}
+nav h2 a{
+    color: #fff;
+    font: 30px/46px "Microsoft YaHei UI";
+
+}
+.title {
+    background: rgba(0,0,0,0.4);
+    height:64px;
+    width: 370px;
+    margin-top: 180px;
+    padding-left: 8px;
+    /*display:inline-block;*/
+}
+nav cite a {
+    color: #e3e3e3;
+}
+#banner .art-sum {
+    width: 234px;
+    height: 83px;
+    display: inline-block;
+    padding: 7px;
+    background: white;
+    vertical-align: bottom;
+    margin-top: 13px;
+
+}
+
+#banner img {
+    height: 69px;
+    width: 69px;
+    margin-right: 14px;
+}
+
+nav .art-sum p {
+    /*width: 173px;*/
+    /*height: 69px;*/
+    /*display: inline-block;*/
+}
+nav .art-sum a {
+    height: 69px;
+    display:inline;
+}
+nav .art-sum p {
+    display: inline;
+
+}
+
+
+/*banner right*/
+
+nav .ban-right {
+    /*position: absolute;*/
+    /*top: 20px;*/
+    /*right: 14px;*/
+    width: 270px;
+    /*height: 359px;*/
+    /*display: inline-block;*/
+    float: right;
+    background: rgba(0,0,0,0.7);
+}
+nav .right-title {
+    margin: 25px 21px 13px 20px;
+    border-bottom: 1px dotted gray;
+}
+nav h4 {
+    color: #47bb67;
+    font-size: 18px;
+
+}
+nav .info .slogan {
+    background: url('../img/img002.png') right no-repeat;
+}
+nav .info a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*footer*/
+/*part 1*/
+.foot-nav {
+    background: #f3f3f3;
+    height: 197px;
+
+}
+
+
+
+
+
+/*part 2 copyright*/
+
+.copy-r {
+    background: #e9e9e9;
+    
+}
+
+.copy-r p {
+    color: #929293;
+    font: 10px/66px "Microsoft YaHei UI";
+    vertical-align: middle;
+
+
+
+
+
+}
+.copy-r a {
+    font-size: 12px;
+    color: #3864b3;
+    padding: 0 9px;
+    border-right: 1px solid #b59c93;
+    text-align: center;
+
+}
+.noborder {
+    border-right: none;
+}

@@ -1,0 +1,67 @@
+/*stylesheet for the blog funtion study*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url('../selfstudy/imgset/imgsblog/bg.jpg')
+}
+#message {
+    width: 600px;
+    height: 180px;;
+    background:white;
+    margin: 200px auto;
+    border-radius:5px;
+    padding:20px;
+}
+#message .title {
+    font-size: 20px;
+    line-height: 25px;
+}
+#message .text {
+
+}
+#message .emoji {
+   float:left;
+    cursor:pointer;
+}
+#message .emoji .emoji-list{
+    width:400px;
+    height: 200px;
+    background:white;
+
+}
+#message .sub-btm {
+    float:right;
+    background:orange;
+    padding:5px 15px;
+    font-size:12px;
+    color:black;
+    border-radius:5px;
+    cursor:pointer;
+}
+#content{
+    width:620px;
+    background:white;
+    margin:20px auto;
+    border-radius:10px;
+
+
+}
+#content .com{
+    width:600px;
+    height:200
+    padding:0 20px:
+    background:white;
+
+}
+#content .com .title {
+    border-bottom:1px dotted #666;
+    height:50;
+
+}
+#content .com .title img {
+    width:50px;
+    height:50px;
+    border-radius:100px;
+}
