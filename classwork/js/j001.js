@@ -60,8 +60,90 @@ window.onload = function () {
     var box02 = document.getElementById('box02');
     btn09.onclick = function () {
         var comm = text03.value;
-        
+        var comm02 = '<p>' + comm + '</p>';
+        box02.innerHTML =  comm02 + box02.innerHTML;
+
+    };
+
+    var btn10 = document.getElementById('btn10');
+    var btn11 = document.getElementById('btn11');
+    var img02 = document.getElementById('img02');
+    var n = 0;
+    var n2 = ['001','002','003','004'];
+
+
+    btn10.onclick = function () {
+        if (n <= 0) {
+            n = 0;
+            alert('first image already')
+        }
+        else {
+            n--;
+            img02.src = '../img/jsimg' + n2[n] + '.jpg';
+        }
+    };
+
+    btn11.onclick = function () {
+        if (n >= n2.length-1) {
+            n = n2.length-1;
+            alert('no more picture')
+        }else {
+            n++;
+            img02.src = '../img/jsimg' + n2[n] + '.jpg';
+        }
+    };
+
+    // btn12.onclick = function () {
+    //     if (n < 0) {
+    //         n = 3;
+    //     }
+    //     else {
+    //         n--;
+    //         img02.src = '../img/jsimg' + n2[n] + '.jpg';
+    //     }
+    // };
+    //
+    // btn13.onclick = function () {
+    //     if (n > n2.length-1) {
+    //         n = 0;
+    //     }else {
+    //         n++;
+    //         img02.src = '../img/jsimg' + n2[n] + '.jpg';
+    //     }
+    // };
+
+    // var circulate = document.getElementById('circulate');
+    // var order = document.getElementById('order');
+    // circulate.onclick = function () {
+    //   btn10.id = btn12;
+    //   btn11.id = btn13;
+    // };
+    //
+    // order.onclick = function () {
+    //   btn12.id = btn10;
+    //   btn13.id = btn11;
+    // };
+
+    // get li
+    var lis01 = document.getElementsByTagName('li');
+    var lis02 = document.querySelectorAll('li');
+    // change all li background color to red using tagname
+    lis01[0].style.background = 'red';
+    lis01[1].style.background = 'red';
+    lis01[2].style.background = 'red';
+    lis01[3].style.background = 'red';
+    lis01[4].style.background = 'red';
+    // console.log(lis01);
+
+    // change all li background color to red using for repeat
+    for(var i = 5;i < lis01.length;i ++){
+            // lis01[i].style.background = 'green';
+        lis01[i].onclick = function () {
+            //lis01.style.background = 'green'; //not working
+
+        }
     }
+
 
 };
 

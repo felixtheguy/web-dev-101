@@ -11,8 +11,10 @@ section {
 }
 
 #box02 {
-    width: 300px;
-    height: 400px;
+    width: 200px;
+    height: 200px;
     border: 2px solid #f00;
-
+}
+#img02 {
+    display:block;
 }
