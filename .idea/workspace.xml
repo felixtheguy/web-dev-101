@@ -4,12 +4,8 @@
     <bookmark url="file://$PROJECT_DIR$/css/style.css" line="66" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d59caf81-839d-4260-ad41-2c885a2da2dc" name="Default" comment="v1.05">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="d59caf81-839d-4260-ad41-2c885a2da2dc" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork/css/js001.css" afterPath="$PROJECT_DIR$/classwork/css/js001.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork/js/j001.js" afterPath="$PROJECT_DIR$/classwork/js/j001.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork/page/js001.html" afterPath="$PROJECT_DIR$/classwork/page/js001.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -300,6 +296,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/OneDrive/webdesign/web-dev-101/js/npm.js&#10;color&#9;ACTION&#9;ShowColorPicker&#10;wrap&#9;ACTION&#9;EditorToggleUseSoftWraps&#10;soft&#9;ACTION&#9;EditorToggleUseSoftWraps&#10;soft w&#9;ACTION&#9;EditorToggleUseSoftWraps&#10;font&#9;ACTION&#9;EditorIncreaseFontSize" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.splitter.proportion" value="0.23518164" />
+    <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -478,7 +475,7 @@
       <workItem from="1486276087269" duration="155000" />
       <workItem from="1486690581166" duration="21173000" />
       <workItem from="1487211700642" duration="9808000" />
-      <workItem from="1487242393274" duration="251000" />
+      <workItem from="1487242393274" duration="1028000" />
     </task>
     <task id="LOCAL-00001" summary="v1.05">
       <created>1483208130186</created>
@@ -494,11 +491,18 @@
       <option name="project" value="LOCAL" />
       <updated>1483257121411</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v4.01">
+      <created>1487242679085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1487242679085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="413444000" />
+    <option name="totallyTimeSpent" value="414221000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -540,7 +544,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="v1.05" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.05" />
+    <MESSAGE value="v4.01" />
+    <option name="LAST_COMMIT_MESSAGE" value="v4.01" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
