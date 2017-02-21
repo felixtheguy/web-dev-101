@@ -1,0 +1,56 @@
+/*stylesheet for js chapter 01 homework*/
+
+div {
+    margin: 5px;
+}
+#box01 {
+    width: 320px;
+    height: 480px;
+    border: 5px solid gray;
+    background: url(../img/jsimg001.jpg);
+    position: relative;
+}
+
+p {
+    margin: 0;
+}
+#imgNum01,#desc01 {
+    background: rgba(0,0,0,0.7);
+    color: white;
+    text-align: center;
+
+}
+#prev {
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,0.7);
+    color: gray;
+    font-size: 40px;
+    position: absolute;
+    top: 215px;
+}
+
+#next {
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,0.7);
+    color: gray;
+    font-size: 40px;
+    position: absolute;
+    top: 215px;
+    right:0;
+}
+#desc01 {
+    width: 320px;
+    position: absolute;
+    bottom: 0;
+}
+#dogPics,#catPics {
+    width: 320px;
+    height: 480px;
+}
+#box02,#box03{
+    float: left;
+}
+
+

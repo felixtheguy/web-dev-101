@@ -1,0 +1,10 @@
+/*stylesheet for chapter 2*/
+section {
+    margin: 10px;
+}
+#calculator {
+    border: 5px solid gray;
+}
+.price80 {
+    display:inline;
+}

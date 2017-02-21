@@ -3,7 +3,8 @@
  */
 
 //change button 03;
-document.getElementById('btn03').onclick = function(){alert(1)};
+document.getElementById('btn03').onclick = function(){
+    alert(1)};
 //change img01;
 
 window.onload = function () {
@@ -136,11 +137,40 @@ window.onload = function () {
     // console.log(lis01);
 
     // change all li background color to red using for repeat
-    for(var i = 5;i < lis01.length;i ++){
-            // lis01[i].style.background = 'green';
-        lis01[i].onclick = function () {
-            //lis01.style.background = 'green'; //not working
+    for(var i = 5;i < 10;i ++){
+            lis01[i].style.background = 'green';}
 
+    for(var x =10;x < lis01.length;x ++){
+        lis01[x].onclick = function () {
+            this.style.background = 'blue';
+        }
+    }
+    var inputs01 = document.querySelectorAll('section#opt01>input');
+    var divs01 = document.querySelectorAll('section#opt01>div');
+    var last01 = inputs01[0];
+
+    for(var y = 0;y < inputs01.length; y ++){
+        inputs01[y].index = y;
+        inputs01[y].onclick = function () {
+            last01.style.background = '';
+            divs01[last01.index].style.display = 'none';
+            this.style.background = 'gray';
+            divs01[this.index].style.display = 'block';
+            last01 = this;
+        }
+    }
+
+    var inputs02 = document.querySelectorAll('section#opt02>input');
+    var divs02 = document.querySelectorAll('section#opt02>div');
+    for(var q = 0;q <inputs02.length;q ++){
+        inputs02[q].index =q;
+        inputs02[q].onclick = function () {
+            for(var q = 0;q < inputs02.length;q ++){
+                inputs02[q].style.background = 'none';
+                divs02[q].style.display = 'none';
+            }
+            this.style.background = 'dodgerblue';
+            divs02[this.index].style.display = 'block';
         }
     }
 
