@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS custom menu</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href=""/>
+    <link rel="stylesheet" href=""/>
+    <style>
+        span {
+            margin: 50px;
+            padding: 50px;
+            background: #f7e1b5;
+            width: 50px;
+            height:50px;
+
+        }
+        #menu {
+            height:100px;
+            width: 100px;
+            border: 1px solid gray;
+            background: darkgoldenrod;
+            padding: 5px;
+            position: absolute;
+            display: none;
+        }
+        ul, li {
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span id="box">click here</span>
+</div>
+<div id="menu">
+    <ul>
+        <li><a href="#">menu01</a></li>
+        <li><a href="#">menu02</a></li>
+    </ul>
+</div>
+
+<script>
+    var menu = document.getElementById('menu');
+    var box = document.getElementById('box');
+
+    box.oncontextmenu= function () {
+            menu.style.display = "block";
+            menu.style.left = event.clientX + "px";
+            menu.style.top = event.clientY + "px";
+            return false;
+    };
+    box.onclick = function () {
+        menu.style.display = "none"
+    }
+
+</script>
+</body>
+</html>
