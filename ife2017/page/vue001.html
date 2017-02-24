@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>VUE.JS first tryout</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href=""/>
+    <script src="../vendor/vue.js"></script>
+    <script src="../js/vue001.js"></script>
+    <link rel="stylesheet" href="../css/vue001.css"/>
+</head>
+<body>
+
+<div id="app">
+    <p>{{ message }}</p>
+</div>
+
+<div id="app-2">
+  <span v-bind:title="message">
+    Hover your mouse over me for a few seconds to see my dynamically bound title!
+  </span>
+</div>
+
+<script src="../js/vue001.js"></script>
+</body>
+</html>

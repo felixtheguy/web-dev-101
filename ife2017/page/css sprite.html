@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ife 2017 NM CSS SPRITE</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href=""/>
+    <link rel="stylesheet" href=""/>
+
+    <style>
+        input[type=checkbox] {
+            visibility: hidden;
+        }
+        input[type=radio] {
+            visibility: hidden;
+        }
+        .checkbox {
+            width: 40px;
+            height: 10px;
+            background: #555;
+            margin: 20px 80px;
+            position: relative;
+            border-radius: 3px;
+
+        }
+        .checkbox label {
+            display: block;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+
+            -webkit-transition: all .5s ease;
+            -moz-transition: all .5s ease;
+            -o-transition: all .5s ease;
+            -ms-transition: all .5s ease;
+            transition: all .5s ease;
+            cursor: pointer;
+            position: absolute;
+            top: -3px;
+            left: -3px;
+
+            background: #ccc;
+        }
+        .checkbox input[type=checkbox]:checked + label {
+            left: 27px;
+        }
+        .radio {
+
+        }
+
+        /*http://olv9f4wvo.bkt.clouddn.com/btn001.gif*/
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <p>item</p>
+            <div class="checkbox-wrap">
+                <label for="check01">check01</label>
+                <input type="checkbox" name="checkbox01"  id="check01" value="check01">
+                <label for="check02">check02</label>
+                <input type="checkbox" name="checkbox02"  id="check02" value="check02">
+            </div>
+
+            <div class="radio">
+                <label for="radio01">radio01</label>
+                <input type="radio" name="radio01" id="radio01" value="radio01">
+                <label for="radio02"></label>
+                <input type="radio" name="radio02" id="radio02" value="radio02">
+            </div>
+            <label for="radio01">radio01</label>
+            <input type="radio" name="radio01" id="radio01" value="radio01">
+            <label for="radio02"></label>
+            <input type="radio" name="radio02" id="radio02" value="radio02">
+        </div>
+    </section>
+</body>
+</html>

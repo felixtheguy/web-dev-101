@@ -1,0 +1,59 @@
+body {
+    background-color: darkgray;
+}
+nav {
+    padding: 0 20px 0 20px;
+}
+#section1 {
+    padding-top:100px;
+    height:850px;
+    color: #fff;
+    background: url("../img/portfolio/bg001.jpg");
+    background-size: 100%;
+}
+#section2 {
+    padding-top:50px;
+    height:850px;
+    color: #fff;
+    background: url("../img/portfolio/bg002.jpg");
+    background-size: 100%;
+}
+#section3 {
+    padding-top:50px;
+    height:850px;
+    color: #fff;
+    background: url("../img/portfolio/bg003.jpg");
+    background-size: 100%;
+}
+#section4 {
+    padding-top:50px;
+    height:850px;
+    color: #fff;
+    background: url("../img/portfolio/bg004.jpg");
+    background-size: 100%;
+}
+
+#section2 img{
+    width: 100%;
+}
+#section2 img:hover {
+    border: 5px solid gray;
+}
+#foot1 {
+    background: gray;
+    height: 300px;
+}
+#foot2 {
+    background: black;
+    color: #fff;
+    height: 50px;
+    padding-top:19px;
+    margin:0;
+}
+footer ul{
+    margin:0;
+}
+footer ul li{
+    list-style: none;
+    display: inline;
+}

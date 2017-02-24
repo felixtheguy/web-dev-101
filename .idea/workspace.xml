@@ -5,19 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59caf81-839d-4260-ad41-2c885a2da2dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classwork/css/js002.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classwork/js/j001hw.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classwork/js/j002.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classwork/page/js001hw.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/classwork/page/js002.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selfstudy/FCC-P001.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/css/vue001.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/js/vue001.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/page/css sprite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/page/vue001.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selfstudy/css/portfolio.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selfstudy/js/portfolio.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selfstudy/pages/text2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selfstudy/pages/tribute-page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selfstudy/protfolio.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/selfstudy/FCC-P001.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork/css/js001.css" afterPath="$PROJECT_DIR$/classwork/css/js001.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork/js/j001.js" afterPath="$PROJECT_DIR$/classwork/js/j001.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork/page/ch001.html" afterPath="$PROJECT_DIR$/classwork/page/ch001.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classwork/page/js001.html" afterPath="$PROJECT_DIR$/classwork/page/js001.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/classwork/page/h002.html" afterPath="$PROJECT_DIR$/classwork/css/js001hw.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/index-lite.html" afterPath="$PROJECT_DIR$/selfstudy/pages/index-lite.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/p001wtf.html" afterPath="$PROJECT_DIR$/selfstudy/pages/p001wtf.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/p002bootstrap.html" afterPath="$PROJECT_DIR$/selfstudy/pages/p002bootstrap.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/p003map-api.html" afterPath="$PROJECT_DIR$/selfstudy/pages/p003map-api.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/p004blog.html" afterPath="$PROJECT_DIR$/selfstudy/pages/p004blog.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/p005js-accordion-effect.html" afterPath="$PROJECT_DIR$/selfstudy/pages/p005js-accordion-effect.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/p006photowall.html" afterPath="$PROJECT_DIR$/selfstudy/pages/p006photowall.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/selfstudy/test.html" afterPath="$PROJECT_DIR$/selfstudy/pages/test.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,43 +48,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="j002.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classwork/js/j002.js">
+      <file leaf-file-name="css sprite.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ife2017/page/css sprite.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3240">
-              <caret line="92" column="6" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-              <folding>
-                <element signature="e#0#41#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FCC-P001.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/selfstudy/FCC-P001.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../components/hackweek-project/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="js002.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/classwork/css/js002.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="673">
+              <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -86,8 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="SVG File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -107,6 +85,7 @@
       <find>imgnum</find>
       <find>p</find>
       <find>p&gt;</find>
+      <find>navbar-inverse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,21 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/style.css" />
-        <option value="$PROJECT_DIR$/pages/mobile-fit.html" />
-        <option value="$PROJECT_DIR$/pages/test.html" />
-        <option value="$PROJECT_DIR$/pages/page2.html" />
-        <option value="$PROJECT_DIR$/pages/bootsrtap.html" />
-        <option value="$PROJECT_DIR$/pages/serch.html" />
-        <option value="$PROJECT_DIR$/pages/page3.html" />
-        <option value="$PROJECT_DIR$/pages/search.html" />
-        <option value="$PROJECT_DIR$/css/amap.css" />
-        <option value="$PROJECT_DIR$/pages/fishmap.html" />
-        <option value="$PROJECT_DIR$/pages/list.html" />
-        <option value="$PROJECT_DIR$/pages/amap.html" />
-        <option value="$PROJECT_DIR$/pages/blog.html" />
-        <option value="$PROJECT_DIR$/css2/accordion.css" />
-        <option value="$PROJECT_DIR$/pages/accordion.html" />
         <option value="$PROJECT_DIR$/pages/p1wtf.html" />
         <option value="$PROJECT_DIR$/pages/p004blog.html" />
         <option value="$PROJECT_DIR$/css2/blog.css" />
@@ -167,19 +131,69 @@
         <option value="$PROJECT_DIR$/classwork/js/j002.js" />
         <option value="$PROJECT_DIR$/classwork/page/FCC-P001.html" />
         <option value="$PROJECT_DIR$/../components/hackweek-project/index.html" />
+        <option value="$PROJECT_DIR$/selfstudy/FCC-P001.html" />
+        <option value="$PROJECT_DIR$/selfstudy/tribute-page.html" />
+        <option value="$PROJECT_DIR$/selfstudy/protfolio.css" />
+        <option value="$PROJECT_DIR$/selfstudy/js/protfolio.js" />
+        <option value="$PROJECT_DIR$/selfstudy/css/protfolio.css" />
+        <option value="$PROJECT_DIR$/selfstudy/pages/text2.html" />
+        <option value="$PROJECT_DIR$/selfstudy/js/portfolio.js" />
+        <option value="$PROJECT_DIR$/selfstudy/css/portfolio.css" />
+        <option value="$PROJECT_DIR$/selfstudy/protfolio.html" />
+        <option value="$PROJECT_DIR$/ife2017/css/vue001.css" />
+        <option value="$PROJECT_DIR$/ife2017/js/vue.js" />
+        <option value="$PROJECT_DIR$/ife2017/js/vue001.js" />
+        <option value="$PROJECT_DIR$/ife2017/page/vue001.html" />
+        <option value="$PROJECT_DIR$/ife2017/js/css sprite.html" />
+        <option value="$PROJECT_DIR$/ife2017/page/css sprite.html" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-14" />
-    <option name="width" value="3868" />
-    <option name="height" value="2074" />
+    <option name="x" value="-3856" />
+    <option name="y" value="542" />
+    <option name="width" value="3872" />
+    <option name="height" value="2092" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>Invalid elementsCSS</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>HtmlUnknownAttribute</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -199,8 +213,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -237,12 +249,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="classwork" />
+              <option name="myItemId" value="selfstudy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-dev-101" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-dev-101" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ife2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-dev-101" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-dev-101" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ife2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,20 +300,22 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
-    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Bootstrap templet/startbootstrap-agency-gh-pages" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/OneDrive/webdesign/web-dev-101/js/npm.js&#10;color&#9;ACTION&#9;ShowColorPicker&#10;wrap&#9;ACTION&#9;EditorToggleUseSoftWraps&#10;soft&#9;ACTION&#9;EditorToggleUseSoftWraps&#10;soft w&#9;ACTION&#9;EditorToggleUseSoftWraps&#10;font&#9;ACTION&#9;EditorIncreaseFontSize" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.splitter.proportion" value="0.23518164" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
+    <property name="JavaScriptPreferStrict" value="false" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\OneDrive\webdesign\web-dev-101\ife2017\page" />
+      <recent name="D:\OneDrive\webdesign\web-dev-101\selfstudy\pages" />
+      <recent name="D:\OneDrive\webdesign\web-dev-101\selfstudy\css" />
       <recent name="D:\OneDrive\webdesign\web-dev-101\selfstudy" />
       <recent name="D:\OneDrive\webdesign\web-dev-101\classwork\page" />
-      <recent name="D:\OneDrive\webdesign\web-dev-101" />
-      <recent name="D:\OneDrive\webdesign\study" />
-      <recent name="D:\OneDrive\webdesign\study\CSS" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.p005js-accordion-effect.html">
@@ -365,7 +417,7 @@
     <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\felix\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -442,7 +494,16 @@
       <workItem from="1487380455037" duration="15187000" />
       <workItem from="1487490420158" duration="10311000" />
       <workItem from="1487559229183" duration="1995000" />
-      <workItem from="1487640020828" duration="3898000" />
+      <workItem from="1487640020828" duration="32185000" />
+      <workItem from="1487740526079" duration="9985000" />
+      <workItem from="1487771485572" duration="1836000" />
+      <workItem from="1487834527061" duration="4170000" />
+      <workItem from="1487859692736" duration="148000" />
+      <workItem from="1487859864927" duration="2591000" />
+      <workItem from="1487862586194" duration="202000" />
+      <workItem from="1487862806434" duration="427000" />
+      <workItem from="1487863260229" duration="817000" />
+      <workItem from="1487917910066" duration="4374000" />
     </task>
     <task id="LOCAL-00001" summary="v1.05">
       <created>1483208130186</created>
@@ -469,7 +530,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="485419000" />
+    <option name="totallyTimeSpent" value="538256000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -481,10 +542,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-14" y="0" width="3868" height="2074" extended-state="0" />
+    <frame x="-3856" y="542" width="3872" height="2092" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09489051" sideWeight="0.49710503" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09375" sideWeight="0.49710503" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32844242" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918918" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25282168" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -524,70 +585,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/mobile-fit.html" />
-    <entry file="file://$PROJECT_DIR$/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="18543" lean-forward="false" selection-start-line="4" selection-start-column="18536" selection-end-line="4" selection-end-column="18543" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/fontawsome.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="45" lean-forward="false" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2318">
-          <caret line="122" column="1" lean-forward="false" selection-start-line="122" selection-start-column="1" selection-end-line="122" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/amap.css" />
-    <entry file="file://$PROJECT_DIR$/pages/search.html" />
-    <entry file="file://$PROJECT_DIR$/pages/list.html" />
-    <entry file="file://$PROJECT_DIR$/pages/page2.html" />
-    <entry file="file://$PROJECT_DIR$/pages/p1wtf.html" />
-    <entry file="file://$PROJECT_DIR$/pages/fishmap.html" />
-    <entry file="file://$PROJECT_DIR$/selfstudy/p005js-accordion-effect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="27" column="17" lean-forward="true" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/css2/accordion.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/css2/blog.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/p006photowall.html">
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/p006photowall.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
           <caret line="1270" column="7" lean-forward="true" selection-start-line="1270" selection-start-column="7" selection-end-line="1270" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/p004blog.html">
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/p004blog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
@@ -601,14 +606,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/p003map-api.html">
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/p003map-api.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/p002bootstrap.html">
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/p002bootstrap.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-516">
           <caret line="3" column="26" lean-forward="false" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
@@ -616,14 +621,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/p007pagecopy.html" />
-    <entry file="file://$PROJECT_DIR$/selfstudy/p001wtf.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="33" lean-forward="false" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/index-lite.html">
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/index-lite.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="54" />
@@ -687,13 +685,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/css/zhidao.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="8748">
@@ -738,13 +729,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classwork/css/js002.html" />
-    <entry file="file://$PROJECT_DIR$/classwork/page/js001hw.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="864">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/page/js001.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1008">
@@ -780,52 +764,153 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/classwork/js/j002.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3240">
-          <caret line="92" column="6" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../item/hackweek-project/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../item/hackweek-project/index.html" />
     <entry file="file://$PROJECT_DIR$/classwork/page/js002.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1205">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/classwork/css/js002.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="9" column="1" lean-forward="true" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../components/hackweek-project/index.html" />
+    <entry file="file://$PROJECT_DIR$/../plugin/hackweek-project/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/js/j002.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1503">
+          <caret line="92" column="6" lean-forward="false" selection-start-line="92" selection-start-column="6" selection-end-line="92" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/classwork/page/js001hw.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1150">
+          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Bootstrap templet/startbootstrap-agency-gh-pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1044">
+          <caret line="29" column="98" lean-forward="false" selection-start-line="29" selection-start-column="98" selection-end-line="29" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/tribute-page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1385">
+          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="10" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/text2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="34" column="17" lean-forward="false" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/plugin/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="4" column="74765" lean-forward="false" selection-start-line="4" selection-start-column="74765" selection-end-line="4" selection-end-column="74765" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="10" column="10" lean-forward="false" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/css/portfolio.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/js/portfolio.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/protfolio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1554">
+          <caret line="106" column="0" lean-forward="true" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ife2017/js/vue.js" />
+    <entry file="file://$PROJECT_DIR$/../plugin/vue-for-idea-master/vue-for-idea-master/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="180">
+            <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ife2017/css/vue001.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selfstudy/FCC-P001.html">
+    <entry file="file://$PROJECT_DIR$/ife2017/js/vue001.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+        <state relative-caret-position="432">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../components/hackweek-project/index.html">
+    <entry file="file://$PROJECT_DIR$/ife2017/page/vue001.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="15" column="83" lean-forward="true" selection-start-line="15" selection-start-column="83" selection-end-line="15" selection-end-column="83" />
+        <state relative-caret-position="1155">
+          <caret line="26" column="7" lean-forward="false" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selfstudy/pages/p001wtf.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4575">
+          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ife2017/page/css sprite.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="51" column="10" lean-forward="false" selection-start-line="51" selection-start-column="10" selection-end-line="51" selection-end-column="53" />
           <folding />
         </state>
       </provider>
