@@ -1,0 +1,131 @@
+/*basic setup*/
+h1, body,p {
+    margin:0;
+    padding:0;
+}
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    background: gray;
+    width:100%;
+    overflow: auto;
+}
+header {
+    background: black;
+    color: white;
+
+    padding: 0 10px 0 10px;
+}
+h1 {
+    display: inline;
+}
+header h1 a {
+    color: #fff;
+    text-decoration: none;
+}
+header nav {
+    display: inline;
+}
+header ul {
+    float: right;
+}
+header li {
+    display:inline;
+}
+/*main body*/
+/*form section*/
+.form-page01 {
+    width:400px;
+    background: #fff;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin: 20px 20px 0 0;
+    padding:20px;
+    float: right;
+    display:inline;
+}
+.form-page01 h3,.form-page01 h4 {
+    display: inline;
+}
+.form-page01 textarea {
+    vertical-align: text-top;
+}
+.form-page01 form {
+    margin: 0 auto;
+}
+.form-left {
+    width: 150px;
+    float: left;
+    text-align: right;
+}
+#submit01 {
+    width:100%;
+    display: block;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+
+}
+/*main left section*/
+#main-wrap {
+    margin-right: 460px;
+}
+.box01 {
+    background: #fff;
+    margin: 20px 20px 0 20px;
+    padding: 50px;
+    border-right: 4px solid darkgray;
+    border-bottom: 4px solid darkgray;
+
+}
+article li{
+    list-style-type: none;
+}
+article img{
+    max-width:400px;
+}
+
+/*pics section*/
+.pic-box {
+    margin: 20px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+.pic-box img {
+    width: 184px;
+    margin: 0 auto;
+}
+.pic-box p {
+    /*display: inline;*/
+    text-align: center;
+}
+/*table section*/
+.box01 table {
+    width:100%;
+
+}
+.box01 thead {
+    background: #000;
+    color: #fff;
+
+}
+.box01 tfoot {
+    background: gray;
+    color: #fff;
+}
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding:5px;
+
+}
