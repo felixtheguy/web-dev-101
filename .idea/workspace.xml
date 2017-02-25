@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d59caf81-839d-4260-ad41-2c885a2da2dc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/basic/basic02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/css/basic002.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/basic/basic003.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ife2017/css/basic003.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ife2017/basic/basic01.html" afterPath="$PROJECT_DIR$/ife2017/basic/basic01.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ife2017/basic/basic02.html" afterPath="$PROJECT_DIR$/ife2017/basic/basic02.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ife2017/img/img001.jpeg" afterPath="$PROJECT_DIR$/ife2017/img/img01.jpeg" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,14 +33,12 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-          <file leaf-file-name="basic02.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ife2017/basic/basic02.html">
+          <file leaf-file-name="basic003.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ife2017/basic/basic003.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="944">
-                  <caret line="151" column="48" lean-forward="true" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
-                  <folding>
-                    <element signature="e#5563#5569#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="1114">
+                  <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -46,11 +47,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="basic002.css" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/ife2017/css/basic002.css">
+          <file leaf-file-name="basic003.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/ife2017/css/basic003.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1414">
-                  <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
+                <state relative-caret-position="863">
+                  <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
                   <folding />
                 </state>
               </provider>
@@ -95,8 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pages/p006photowall.html" />
-        <option value="$PROJECT_DIR$/pages/p001wtf.html" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/pages/p002bootstrap.html" />
         <option value="$PROJECT_DIR$/index-lite.html" />
@@ -146,6 +145,8 @@
         <option value="$PROJECT_DIR$/ife2017/basic/basic01.html" />
         <option value="$PROJECT_DIR$/ife2017/basic/basic02.html" />
         <option value="$PROJECT_DIR$/ife2017/css/basic002.css" />
+        <option value="$PROJECT_DIR$/ife2017/basic/basic003.html" />
+        <option value="$PROJECT_DIR$/ife2017/css/basic003.css" />
       </list>
     </option>
   </component>
@@ -254,6 +255,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-dev-101" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-dev-101" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ife2017" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -510,7 +529,7 @@
       <workItem from="1487917910066" duration="13058000" />
       <workItem from="1487943126369" duration="5417000" />
       <workItem from="1487948683985" duration="628000" />
-      <workItem from="1488009496770" duration="8780000" />
+      <workItem from="1488009496770" duration="14385000" />
     </task>
     <task id="LOCAL-00001" summary="v1.05">
       <created>1483208130186</created>
@@ -537,7 +556,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="561765000" />
+    <option name="totallyTimeSpent" value="567370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,14 +611,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/p007pagecopy.html" />
-    <entry file="file://$PROJECT_DIR$/selfstudy/pages/index-lite.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="3" lean-forward="false" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/classwork/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="636">
@@ -890,7 +901,7 @@
         <state relative-caret-position="682">
           <caret line="11" column="4" lean-forward="false" selection-start-line="11" selection-start-column="4" selection-end-line="147" selection-end-column="13" />
           <folding>
-            <element signature="e#4953#4959#0" expanded="false" />
+            <element signature="e#4947#4953#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -913,7 +924,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ife2017/css/basic002.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1414">
+        <state relative-caret-position="1726">
           <caret line="83" column="0" lean-forward="false" selection-start-line="83" selection-start-column="0" selection-end-line="83" selection-end-column="0" />
           <folding />
         </state>
@@ -921,11 +932,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ife2017/basic/basic02.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="944">
-          <caret line="151" column="48" lean-forward="true" selection-start-line="151" selection-start-column="48" selection-end-line="151" selection-end-column="48" />
+        <state relative-caret-position="1719">
+          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
-            <element signature="e#5563#5569#0" expanded="true" />
+            <element signature="e#5557#5563#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ife2017/basic/basic003.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1114">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ife2017/css/basic003.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="863">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>

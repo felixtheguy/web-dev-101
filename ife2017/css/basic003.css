@@ -1,0 +1,38 @@
+.box01 {
+    margin:40px;
+    padding: 20px;
+    border: 1px solid #999;
+    background: #eee;
+    overflow: auto;
+}
+#logo-box{
+    width:158px;
+    padding:20px;
+    border: 1px solid black;
+    float: left;
+    background: #fff;
+
+}
+#logo-box img {
+    width:80px;
+    margin-right: 20px;
+    vertical-align: text-top;
+}
+#team-info {
+    margin: 0 140px 0 220px;
+    background: #fff;
+    border: 1px solid black;
+}
+#members {
+    width: 80px;
+    padding:20px;
+    border: 1px solid black;
+    float: right;
+    background: #fff;
+}
+#members img {
+    width: 100%;
+}
+p{
+    word-break: break-all;
+}
