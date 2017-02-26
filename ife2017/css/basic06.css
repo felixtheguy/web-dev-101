@@ -1,0 +1,172 @@
+/*basic setup*/
+h1,h2, h3,body,p,div {
+    margin:0;
+    padding:0;
+}
+p {
+    word-break: break-all;
+}
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    background: gray;
+}
+#paper {
+    margin: 20px auto;
+    width:892px;
+    /*height: 1386px;*/
+    padding: 0 44px;
+    background: #fff;
+}
+/*header*/
+header {
+    width:892px;
+    border-bottom: 2px solid #938e8c;
+    margin-bottom:30px;
+}
+header h1{
+    width:110px;
+    height: 61px;
+    background:darkred;
+    font-size: 12px;
+    color: #FFFFFF;
+    vertical-align: bottom;
+}
+
+
+/*banner img*/
+#banner-img {
+    float: left;
+    position: relative;
+}
+#banner-img img {
+    z-index:1;
+}
+#banner #banner-cover-left {
+    height: 301px;
+    width: 191px;
+    background: rgba(0,255,0,0.5);
+    position: absolute;
+    z-index:2;
+    top: 0;
+}
+#banner #banner-cover-right {
+    height: 301px;
+    width: 191px;
+    background: rgba(255,0,0,0.5);
+    position: absolute;
+    z-index:2;
+    top: 0;
+    right:0;
+}
+/*banner article*/
+#banner-right {
+    width: 203px;
+    height: 301px;
+    background: red;
+    float: right;
+    /*margin-left: 689px;*/
+    /*display: inline;*/
+}
+
+/*first article section*/
+#box01 {
+    margin-top: 30px;
+    height:250px;
+}
+#box01 article {
+    width: 200px;
+    height:200px;
+    float: left;
+    background: #00ff00;
+    margin-right: 20px;
+}
+/*second article section*/
+#box02 {
+    margin: 20px 0;
+}
+#left {
+    width: 436px;
+    height:485px;
+    float: left;
+    position: relative;
+}
+#left h2 {
+    height: 200px;
+    border-bottom: 2px;
+    background: blue;
+
+}
+
+#left-img {
+    width: 150px;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+}
+
+
+#right {
+    width: 436px;
+    height:485px;
+    background: gray;
+    float: right;
+}
+#right-banner {
+    position: relative;
+
+}
+#right img {
+    width: 436px;
+}
+#right-title {
+    width:100%;
+    height:36px;
+    background: rgba(225,225,225,0.4);
+    position: absolute;
+    bottom: 0;
+}
+#right-title h3 {
+    display: inline;
+    color: #fff;
+    font-size: 26px;
+    font-family: "Microsoft YaHei UI";
+}
+#right-title h4 {
+    display: inline;
+    font-size: 12px;
+    color: #72b16a;
+}
+#right-bottom {
+    background: green;
+    position: relative;
+}
+#right-bottom-left {
+    width: 218px;
+    height:180px;
+    background: orangered;
+    float: left;
+}
+#right-bottom-right {
+    width: 218px;
+    height:180px;
+    background: yellow;
+    float: right;
+}
+
+
+footer {
+    height:50px;
+    border-top: 1px solid #938e8c;
+}
+footer h3 {
+    float: right;
+    font-size: 12px;
+    color: #d45d5c;
+}

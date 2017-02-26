@@ -80,14 +80,16 @@ header li {
     background: #fff;
     margin: 20px 20px 0 20px;
     padding: 50px;
-    border-right: 4px solid darkgray;
-    border-bottom: 4px solid darkgray;
+    box-shadow: 2px 2px;
+    min-width:200px;
 
 }
 article li{
     list-style-type: none;
 }
 article img{
+    width: 40%;
+    min-width: 100px;
     max-width:400px;
 }
 
