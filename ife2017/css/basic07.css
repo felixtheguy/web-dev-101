@@ -1,0 +1,22 @@
+/*basic setup*/
+h1,h2, h3,body,p,div {
+    margin:0;
+    padding:0;
+}
+p {
+    word-break: break-all;
+}
+.clearfix{
+    *zoom:1;
+}
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+body {
+    background: gray;
+}
+section { }
+
+

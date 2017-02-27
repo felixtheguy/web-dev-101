@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ife2017 basic10 flex-box</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href=""/>
+    <link rel="stylesheet" href=""/>
+    <style>
+        .flex-container {
+            /*width: 640px;*/
+            display: flex;
+            border:1px solid black;
+            flex-wrap: wrap-reverse;
+            align-items: center;
+            align-content: center;
+            justify-content: space-between;
+            padding:20px;
+            /*align-content: center;*/
+        }
+        #box1 {
+            width:148px;
+            height: 118px;
+            border: 1px solid #f00;
+        }
+        #box2 {
+            width: 148px;
+            height:98px;
+            border: 1px solid #f00;
+        }
+        #box3 {
+            width: 148px;
+            height: 38px;
+            border: 1px solid #f00;
+        }
+        #box4 {
+            width:148px;
+            height: 198px;
+            border: 1px solid #0f0;
+        }
+        #box5 {
+        }
+    </style>
+</head>
+<body>
+    <section class="flex-container">
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+    </section>
+</body>
+</html>
