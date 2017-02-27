@@ -9,20 +9,18 @@
     <link rel="stylesheet" href=""/>
     <style>
         .flex-container {
-            /*width: 640px;*/
             display: flex;
             border:1px solid black;
-            flex-wrap: wrap-reverse;
             align-items: center;
             align-content: center;
             justify-content: space-between;
             padding:20px;
-            /*align-content: center;*/
         }
         #box1 {
             width:148px;
             height: 118px;
             border: 1px solid #f00;
+
         }
         #box2 {
             width: 148px;
@@ -39,7 +37,17 @@
             height: 198px;
             border: 1px solid #0f0;
         }
-        #box5 {
+
+        @media screen and (max-width: 640px){
+            #box4{
+                order: -1;
+                margin-bottom: 20px;
+            }
+            .flex-container {
+                justify-content: space-between;
+                align-items: flex-start;
+                flex-wrap: wrap;
+            }
         }
     </style>
 </head>
