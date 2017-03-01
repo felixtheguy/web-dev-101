@@ -1,0 +1,95 @@
+body,div,h2,h3,ul{
+    border:0;
+    margin:0;
+    padding:0;
+}
+
+#box01 {
+    margin: 98px 98px;
+    border: 1px dashed #000000;
+    width: 404px;
+    height: 404px;
+}
+#box02{
+    margin: 27px 27px;
+    border: 5px solid #d7effe;
+    background: #f6f6f6;
+    height: 340px;
+    width: 340px;
+
+
+}
+#box03{
+    margin: 20px 20px;
+    background: #ffa0df;
+    height: 300px;
+    width: 300px;
+}
+#box04 {
+    margin: 41px 41px;
+    border: 1px dashed #fff;
+    height: 216px;
+    width: 216px;
+}
+#box05 {
+    margin: 3px 0 0 3px;
+    border: 1px dashed #fff;
+    height: 208px;
+    width: 208px;
+}
+#box06 {
+    margin: 49px 49px;
+    border: 5px solid #fcff00;
+    background: #96ff38;
+    width: 100px;
+    height: 100px;
+}
+#part1 div {
+    overflow: hidden;
+}
+
+/*part 2*/
+#part2 {
+    margin:50px;
+    width: 300px;
+    border: 1px solid #cfcfcf;
+    /*background:gray;*/
+}
+#part2 h3 {
+    height:20px;
+    background: #f3f3f3;
+    border:1px solid #eee;
+    border-top: 2px solid #206f96;
+    font: 16px "Microsoft YaHei UI";
+    font-weight:bold;
+    padding: 6px 0 6px 10px;
+}
+
+#part2 li {
+    list-style-type: none;
+    display: inline;
+    margin: 0 10px 10px 0;
+}
+#part2 a{
+    text-decoration: none;
+    color: #000;
+}
+#part2 .bg-light,#part2 .bg-dark {
+    padding: 18px 0;
+}
+#item1 {
+    padding: 18px 18px 18px 50px;
+    background:url("../img/icon001.gif") no-repeat;
+}
+#item2 {
+    padding: 18px 18px 18px 50px;
+    background:#f7f7f7 url("../img/icon002.gif") no-repeat;
+}
+#item3 {
+    padding: 18px 18px 18px 50px;
+    background: url("../img/icon003.gif") no-repeat;
+}
+#item4 {
+    padding: 18px 18px 18px 50px;
+    background:#f7f7f7 url("../img/icon004.gif") no-repeat;
+}
