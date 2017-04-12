@@ -1,10 +1,11 @@
-/**
+/*
  * Created by felix on 1/10/2017.
  */
 
 //change button 03;
-document.getElementById('btn03').onclick = function(){
-    alert(1)};
+document.getElementById('btn03').onclick = function () {
+    alert(1)
+};
 //change img01;
 
 window.onload = function () {
@@ -18,7 +19,7 @@ window.onload = function () {
     var btn08 = document.getElementById('btn08');
     var box01 = document.getElementById('box01');
 
-    btn04.onclick = function() {
+    btn04.onclick = function () {
         img01.style.width = '700px';
         btn05.style.background = 'none';
         btn06.style.background = 'none';
@@ -38,19 +39,19 @@ window.onload = function () {
         btn06.style.background = 'red';
     };
     btn07.onclick = function () {
-        if(text02.value <= 5){
+        if (text02.value <= 5) {
             alert('less than or equal to 5')
-        }else{
+        } else {
             alert('greater than 5')
         }
     };
     var on = 'block';
     btn08.onclick = function () {
-        if(on == 'none'){
-            box01.style.display='block';
+        if (on == 'none') {
+            box01.style.display = 'block';
             on = 'block';
-        }else{
-            box01.style.display='none';
+        } else {
+            box01.style.display = 'none';
             on = 'none';
 
         }
@@ -62,7 +63,7 @@ window.onload = function () {
     btn09.onclick = function () {
         var comm = text03.value;
         var comm02 = '<p>' + comm + '</p>';
-        box02.innerHTML =  comm02 + box02.innerHTML;
+        box02.innerHTML = comm02 + box02.innerHTML;
 
     };
 
@@ -70,7 +71,7 @@ window.onload = function () {
     var btn11 = document.getElementById('btn11');
     var img02 = document.getElementById('img02');
     var n = 0;
-    var n2 = ['001','002','003','004'];
+    var n2 = ['001', '002', '003', '004'];
 
 
     btn10.onclick = function () {
@@ -85,10 +86,10 @@ window.onload = function () {
     };
 
     btn11.onclick = function () {
-        if (n >= n2.length-1) {
-            n = n2.length-1;
+        if (n >= n2.length - 1) {
+            n = n2.length - 1;
             alert('no more picture')
-        }else {
+        } else {
             n++;
             img02.src = '../img/jsimg' + n2[n] + '.jpg';
         }
@@ -137,10 +138,11 @@ window.onload = function () {
     // console.log(lis01);
 
     // change all li background color to red using for repeat
-    for(var i = 5;i < 10;i ++){
-            lis01[i].style.background = 'green';}
+    for (var i = 5; i < 10; i++) {
+        lis01[i].style.background = 'green';
+    }
 
-    for(var x =10;x < lis01.length;x ++){
+    for (var x = 10; x < lis01.length; x++) {
         lis01[x].onclick = function () {
             this.style.background = 'blue';
         }
@@ -149,7 +151,7 @@ window.onload = function () {
     var divs01 = document.querySelectorAll('section#opt01>div');
     var last01 = inputs01[0];
 
-    for(var y = 0;y < inputs01.length; y ++){
+    for (var y = 0; y < inputs01.length; y++) {
         inputs01[y].index = y;
         inputs01[y].onclick = function () {
             last01.style.background = '';
@@ -162,10 +164,10 @@ window.onload = function () {
 
     var inputs02 = document.querySelectorAll('section#opt02>input');
     var divs02 = document.querySelectorAll('section#opt02>div');
-    for(var q = 0;q <inputs02.length;q ++){
-        inputs02[q].index =q;
+    for (var q = 0; q < inputs02.length; q++) {
+        inputs02[q].index = q;
         inputs02[q].onclick = function () {
-            for(var q = 0;q < inputs02.length;q ++){
+            for (var q = 0; q < inputs02.length; q++) {
                 inputs02[q].style.background = 'none';
                 divs02[q].style.display = 'none';
             }

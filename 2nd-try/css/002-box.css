@@ -1,0 +1,62 @@
+/* this is the stylesheet for the box */
+/*this is also a comment*/
+#box01 {
+    width: 480px;
+    margin: 98px;
+    border: 1px dashed black;
+    padding: 27px;
+}
+#box02 {
+    padding: 50px;
+    border:5px solid #d7effe;
+    background-color: gray;
+}
+#box03 {
+    margin:50px;
+    background-color: pink;
+}
+#box04 {
+    border: 1px dashed white;
+
+}
+#box05 {
+    margin: 5px;
+    border: 1px dashed white;
+}
+#box06 {
+    margin: 100px;
+    border:5px solid yellow;
+    background-color: green;
+    width: 50px;
+    height: 50px;
+
+}
+#box07 {
+    margin: 100px 0 100px 100px;
+    border: 1px dashed black;
+    padding: 30px;
+    display: inline-block;
+}
+#box08 {
+    border: 5px solid lightblue;
+    background-color: gray;
+}
+#box09 {
+    background-color: pink;
+    padding: 50px;
+}
+#box10 {
+    border: 1px dashed white;
+    padding: 5px;
+}
+#box11 {
+    border: 1px dashed white;
+    padding: 50px;
+}
+#box12 {
+    border: 3px solid yellow;
+    background: green;
+    padding: 50px;
+}
+
+

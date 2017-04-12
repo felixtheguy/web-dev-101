@@ -1,0 +1,135 @@
+body,h1,h3,h4,ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}#part1 {
+    width: 328px;
+    border:1px solid black;
+    padding: 8px;
+     margin: 50px;
+}
+#part1 h3 {
+    background: linear-gradient(#fdfdfe,#f6f6f8);
+    border: 1px solid #e7e7eb;
+    padding: 7px;
+    margin-bottom: 13px;
+}
+#part1 img {
+    border: 1px solid #c8c4d3;
+    padding: 2px;
+    vertical-align: top;
+}
+#top-recommend {
+    display: inline-block;
+    width: 170px;
+    margin: 8px 0 0 12px;
+}
+#part1 li {
+    list-style-type: none;
+    font-size: 12px;
+    word-break: break-all;
+}
+#part1 #list02 {
+    margin:18px;
+    width: 240px;
+}
+#part1 #author01 {
+    text-align: right;
+}
+#list02, #list03 {
+    display: inline-block;
+}
+#list03 {
+    text-align: right;
+}
+
+
+#part2 {
+    border: 1px solid black;
+    margin: 50px;
+    width: 978px;
+}
+#part2 h3 {
+    background: linear-gradient(#e6e6e6,#fff);
+    font-weight: bold;
+    padding: 19px 15px;
+}
+#main01 {
+    padding: 3px 39px;
+}
+.top-ads {
+    display: inline-block;
+}
+.img-wrap {
+    padding: 1px;
+    border: 1px solid #c7c7c7;
+}
+.list04 {
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
+    margin-left: 15px;
+    font: 12px/22px "Microsoft YaHei UI";
+}
+.buy01 {
+    border: 1px solid #b22423;
+    background: linear-gradient(#fb837c,#bb1211);
+    color: #fff;
+    text-shadow: 0 1px #000;
+}
+.view01 {
+    border: 1px solid #d43100;
+    background: linear-gradient(#ffc651,#f37002);
+    color: #fff;
+    text-shadow: 0 1px #e67839;
+}
+#bottom01 {
+    margin-top: 30px;
+}
+.bottom-ads {
+    width:124px;
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 32px;
+}
+.bottom-ads img {
+    border: 1px solid #c7c7c7;
+    padding: 1px;
+}
+
+.bottom-ads li {
+    list-style-type: none;
+}
+.bottom-ads .sub-title02 {
+    font-weight: bold;
+}
+
+#part3 {
+    margin: 50px;
+    border: 1px solid #fff;
+    background: #1d2088;
+}
+#box03 {
+    height: 600px;
+    width: 200px;
+    background: #920783;
+    margin: 20px;;
+    overflow: hidden;
+    float: left;
+}
+#box04 {
+    margin: 50px 10px 0 10px;
+    width:170px;
+    height:500px;
+    background: #89c997;
+}
+#box05 {
+    width:300px;
+    margin:20px;
+    background: #00561f;
+}
