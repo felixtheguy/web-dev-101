@@ -1,0 +1,102 @@
+body, div,h1,h2,h3,p {
+    margin: 0;
+    padding: 0;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+#main-bg {
+    background: gray;
+}
+header {
+    background: #333333;
+    height: 50px;
+}
+header img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 0 5px;
+}
+#top-nav {
+    float: right;
+}
+#top-nav ul {
+    margin-right: 10px;
+}
+#top-nav li {
+    display: inline;
+}
+#top-nav li a {
+    color: #fff;
+    text-decoration: none;
+}
+#top-nav li a:hover {
+    color: pink;
+}
+.article01 {
+    margin: 20px 20px 0 20px;
+    background: #fff;
+    padding:20px;
+    box-shadow: 3px 3px #333333;
+
+}
+.img01 {
+    width:300px;
+    height: 300px;
+}
+.article02 {
+    text-indent: 2em;
+}
+.article01 ul {
+    list-style: none;
+}
+/*imgs*/
+.pic-box01 {
+    width: 50px;
+    padding:10px;
+    border: 1px solid gray;
+    margin-top: 20px;
+}
+.pic-box01 img {
+    width: 50px;
+    height: 50px;
+}
+/*form box*/
+.article01 table,.article01 td, .article01 th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.article01 thead {
+    background: #333;
+    color: #fff;
+}
+.article01 tfoot {
+    background: gray;
+}
+/*aside form section*/
+aside section {
+    display: inline;
+}
+aside h2{
+    border-left: 5px solid gray;
+    padding-left: 5px;
+}
+.form-left{
+    text-align: right;
+    float: left;
+    width: 30%;
+}
+.form-right {
+    float: left;
+    margin-left: 1%;
+}
+aside p {
+    margin-left: 31%;
+}
+#submit01 {
+    width: 100%;
+    background: blue;
+    color: #fff;
+}

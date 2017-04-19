@@ -1,0 +1,110 @@
+/*css reset*/
+div,body,img,a,p,section,h3,li,ul{
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.clearfix:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+/*main*/
+body {
+    background: #f3f3f3;
+}
+.box01 {
+    margin: 13px;
+    padding: 15px;
+    background: #fff;
+    width: 780px;
+}
+/*top div*/
+
+.top-img01 {
+    height: 228px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.top-art-right{
+    display: inline-block;
+    width: 389px;
+    vertical-align: top;
+
+}
+.top-art h3 {
+    font: bold 24px/26px "Microsoft YaHei UI";
+    color: #000;
+    margin-bottom: 11px;
+}
+.top-art-right p {
+    color: #8b8b8b;
+    font: 14px/24px "Microsoft YaHei UI";
+}
+.sum01 {
+    height: 91px;
+}
+.top-art-right p span {
+    color: #fc5443;
+}
+.top-art-right-bot {
+    margin-top: 9px;
+}
+.true {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #35b558;
+    font: 29px/60px "Microsoft YaHei UI";
+    text-align: center;
+    color: #FFF;
+    margin-right: 24px;
+}
+.fault {
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #e66e62;
+    font: 29px/60px "Microsoft YaHei UI";
+    text-align: center;
+    color: #FFF;
+}
+.find-true {
+    display: inline;
+    font: 15px/60px "Microsoft YaHei UI";
+    float: right;
+    color: #8b8b8b;
+}
+/*bottom list*/
+.bot-list01 {
+    margin-top: 15px;
+}
+.bot-list01 .dot01 {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    font: 8px/34px "Microsoft YaHei UI";
+    background: #35b558;
+    border-radius: 50px;
+    margin-right: 12px;
+}
+.bot-list01 a {
+    font: 17px/34px "Microsoft YaHei UI";
+    color: #000;
+}
+.bot-list01 .view01 {
+    font: 12px/34px "Microsoft YaHei UI";
+    color: #8b8b8b;
+    float: right;
+    text-align: right;
+}
+.bot-list01 a:hover {
+    color: #35b558;
+}

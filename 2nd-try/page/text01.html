@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>text01</title>
+    <meta name="keyword" content="">
+    <meta name="description" content="">
+    <link rel="shortcut icon" href=""/>
+    <link rel="stylesheet" href="../css/text01.css"/>
+</head>
+<body>
+<div class="box01">
+    <h2>form</h2>
+    <form action="#">
+        <div>
+            <label for="email01" class="form-left">email</label>
+            <input type="email" id="email01" placeholder="xxx@xxx.com">
+        </div>
+        <p>type email</p>
+        <div>
+            <label for="pass01" class="form-left">password</label>
+            <input type="password" id="pass01">
+        </div>
+        <div>
+            <label for="pass02" class="form-left">re-password</label>
+            <input type="password" id="pass02">
+        </div>
+        <p>type password 6-16 digit</p>
+        <div>
+            <span class="form-left">gender</span>
+            <section class="form-right">
+                <input type="radio" id="male" name="gender">
+                <label for="male">male</label>
+                <input type="radio" id="female" name="gender">
+                <label for="female">female</label>
+            </section>
+        </div>
+        <div>
+            <label for="location01" class="form-left">location</label>
+            <select name="location" id="location01" class="form-right">
+                <option value="bj">BJ</option>
+                <option value="sh">SH</option>
+                <option value="gz">GZ</option>
+                <option value="sz">SZ</option>
+            </select>
+        </div>
+        <div>
+            <span class="form-left">hobby</span>
+            <section class="form-right">
+                <input type="checkbox" id="run01">
+                <label for="run01">run</label>
+                <input type="checkbox" id="play01">
+                <label for="play01">play</label>
+                <input type="checkbox" id="sleep01">
+                <label for="sleep01">sleep</label>
+            </section>
+        </div>
+        <div>
+            <label for="textare01" class="form-left">tell me more</label>
+            <textarea name="text01" id="textare01" cols="30" rows="10">type here</textarea>
+        </div>
+        <input type="submit" id="submit01" onclick="alert('submitted')">
+    </form>
+</div>
+</body>
+</html>

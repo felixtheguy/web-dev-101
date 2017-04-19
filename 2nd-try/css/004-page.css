@@ -1,0 +1,49 @@
+/*clear default*/
+body, div, h1, header, ul{
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+li {
+    list-style-type: none;
+}
+/*begin*/
+.box01{
+    border: 1px solid #cfcfcf;
+    border-top: 2px solid #206f96;
+    margin: 50px;
+    width: 300px;
+}
+.head01 h1 {
+    font: 14px/29px "Microsoft YaHei UI";
+    background: linear-gradient(#fdfdfd, #ededed);
+    border-bottom: 1px solid #cfcfcf;
+    padding-left: 10px;
+}
+.box01 li {
+    display: inline;
+}
+.side-text01 {
+    font: 12px/57px "Microsoft YaHei UI";
+    padding-left: 50px;
+    background: url("../img/004/icon01.gif") no-repeat 16px center;
+}
+.side-text02 {
+    font: 12px/25px "Microsoft YaHei UI";
+    padding: 13px 0 13px 50px;
+    background: #f7f7f7 url("../img/004/icon02.gif") no-repeat 16px center;
+}
+.side-text03 {
+    font: 12px/25px "Microsoft YaHei UI";
+    padding: 13px 0 13px 50px;
+    background: url("../img/004/icon03.gif") no-repeat 16px center;
+}
+.side-text04 {
+    font: 12px/25px "Microsoft YaHei UI";
+    padding: 13px 0 13px 50px;
+    background: #f7f7f7 url("../img/004/icon04.gif") no-repeat 16px center;
+}
+

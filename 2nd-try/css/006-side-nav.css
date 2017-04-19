@@ -1,0 +1,39 @@
+/*css reset*/
+div {
+    margin:0;
+    padding:0;
+}
+ul, li {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+/*main*/
+.box {
+    margin: 50px;
+
+}
+#list01 {
+    border: 1px solid #eeeeee;
+}
+ul {
+    background: url("../img/006/icon000.jpg") no-repeat 8px 0;
+    width: 230px;
+}
+a {
+    font: 12px/40px "Microsoft YaHei UI";
+    display: block;
+    margin-left: 50px;
+}
+li {
+    background: url("../img/006/icon010.jpg") no-repeat 198px center;
+}
+a:hover {
+    color: #e45e60;
+}
+li:hover {
+    background: url("../img/006/icon010.jpg") no-repeat 208px center;
+}

@@ -1,0 +1,66 @@
+/*css reset*/
+section,div,h3,p,a{
+    margin:0;
+    padding:0;
+}
+a {
+    text-decoration: none;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/*main*/
+body {
+    background-color: #f3f3f3;
+}
+section {
+    padding: 15px;
+    background: #fff;
+    width: 1048px;
+}
+h3 {
+    font: bold 22px/22px "Microsoft YaHei UI";
+    color: #000;
+    margin-bottom: 13px;
+}
+/*picture section*/
+.arrow01 {
+    font: 32px/170px "Microsoft YaHei UI";
+    color: #4aca6d;
+    float: left;
+}
+.img-box01 {
+    width: 230px;
+    height: 170px;
+    float: left;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.img-box01 a {
+    width: 230px;
+    height: 170px;
+    display: block;
+    position: relative;
+}
+.img-box01 .class-nom {
+    padding: 0 10px;
+    height: 24px;
+    background: #4aca6d;
+    font: 11px/24px "Microsoft YaHei UI";
+    text-align: center;
+    position: absolute;
+    top: 0;
+    color: #fff;
+}
+.img-box01 .sub-title01 {
+    width: 202px;
+    padding: 14px ;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 12px;
+}

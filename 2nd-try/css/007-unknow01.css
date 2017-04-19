@@ -1,0 +1,73 @@
+/*css reset*/
+a {
+    text-decoration: none;
+}
+dt, dd{
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/*main*/
+.box {
+    border: 1px solid #e6e6e6;
+    padding: 20px;
+    display: inline-block;
+}
+dl{
+    font: 12px/25px "Microsoft YaHei UI";
+}
+dt, dd {
+    display: inline;
+}
+dt {
+    margin-right: 13px;
+}
+dl a {
+    color: #000;
+    display: inline-block;
+    padding: 7px 5px;
+}
+dl .active , dl a:hover {
+    background: #45a4fc;
+    color: #fff;
+    /*display: inline-block;*/
+    text-align: center;
+}
+.under-line {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #e6e6e6;
+    margin-bottom: 0;
+}
+/*button part*/
+ul {
+    display: inline-block;
+    width: 155px;
+    text-align: center;
+    margin-top: 30px;
+}
+li img {
+    margin-bottom: 23px;
+}
+.center {
+    margin: 0 30px;
+}
+ul a {
+    color: #000;
+}
+li span {
+    display: inline-block;
+    font: 12px/34px "Microsoft YaHei UI";
+    color: #f95f54;
+}
+li button {
+    background: #0d76cf;
+    color: #fff;
+    width: 80px;
+    height: 30px;
+    border: none;
+}

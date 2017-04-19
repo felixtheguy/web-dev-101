@@ -1,0 +1,59 @@
+/*css reset*/
+section,div,a{
+    margin: 0;
+    padding: 0;
+}
+img {
+    vertical-align: middle;
+}
+a {
+    text-decoration: none;
+}
+/*main*/
+section {
+
+}
+.img-wrap {
+    position: relative;
+    width: 1178px;
+    height: 467px;
+    /*width: 1178px;*/
+}
+.img-wrap div{
+    position: absolute;
+}
+.sub-title {
+    width: 100%;
+    display: block;
+    font: 12px/30px "Microsoft YaHei UI";
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    text-indent: 20px;
+    position: absolute;
+    bottom: 0;
+}
+#img2 {
+    left: 237px;
+}
+
+#img3 {
+    right: 474px;
+}
+#img4 {
+    right: 237px;
+}
+#img5 {
+    right:0;
+}
+#img6 {
+    bottom:0;
+}
+#img7 {
+    right: 474px;
+    bottom: 0;
+}
+#img8 {
+    right: 0;
+    bottom: 0;
+}
+

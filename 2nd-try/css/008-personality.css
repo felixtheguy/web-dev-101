@@ -1,0 +1,115 @@
+/*css reset*/
+h3, h4, p, dd, dl{
+    margin: 0;
+    padding: 0;
+}
+ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+/*main*/
+/*dl*/
+.box01 {
+    width: 410px;
+    border: 1px solid #000000;
+}
+.box02 {
+    margin: 12px 10px 24px;
+}
+h3 {
+    font: bold 24px/42px "Microsoft YaHei UI";
+    /*height: 53px;*/
+    background: #eee url("../img/008/title.jpg") no-repeat;
+    border-bottom: 3px solid #ff7a7a;
+    padding: 11px 0 0 64px;
+    color: #fff;
+}
+dl {
+    font-size: 0;
+}
+dt {
+    font: bold 20px/38px "Microsoft YaHei UI";
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 10px;
+    color: #ff7a7a;
+}
+/*dd {*/
+    /*width: 91px;*/
+    /*height: 31px;*/
+    /*background: #ff7a7a;*/
+    /*text-align: center;*/
+    /*display: inline-block;*/
+    /*margin: 0 2px 12px;*/
+    /*border: 1px solid #ff7a7a;*/
+
+/*}*/
+dd {
+    display: inline-block;
+}
+dd a {
+    width: 91px;
+    height: 31px;
+    background: #ff7a7a;
+    text-align: center;
+    display: inline-block;
+    margin: 0 2px 12px;
+    border: 1px solid #ff7a7a;
+    color: #fff;
+    font: 16px/33px "Microsoft YaHei UI";
+}
+dd a:hover {
+    background: #fff;
+    border: 1px solid #dadada;
+    width: 91px;
+    height: 31px;
+    color: #000;
+}
+/*article*/
+.box03 a {
+    display: inline-block;
+    margin-right: 10px;
+    height: 90px;
+    color: #000;
+}
+.box04 {
+    vertical-align: top;
+    display: inline-block;
+    width: 250px;
+}
+.box04 h4 {
+    font: 18px/28px "Microsoft YaHei UI";
+    color: #ff7a7a;
+}
+.box04 p {
+    font: 12px/20px "Microsoft YaHei UI";
+}
+/*order list*/
+ol span {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: #ff7a7a;
+    color: #fff;
+    margin-right: 5px;
+    text-align: center;
+    font: 11px/16px "Microsoft YaHei UI";
+}
+ol {
+    font-size: 0;
+}
+ol li {
+    display: inline-block;
+    width: 195px;
+}
+ol a {
+    color: #000;
+    font-size: 16px;
+}
+ol a:hover {
+    color: #ff7a7a;
+}
